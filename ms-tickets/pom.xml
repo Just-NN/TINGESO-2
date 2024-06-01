@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.mingeso</groupId>
-	<artifactId>ms-orders</artifactId>
+	<artifactId>ms-tickets</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ms-orders</name>
+	<name>ms-tickets</name>
 	<description>Microservicio productos</description>
 	<properties>
 		<java.version>17</java.version>

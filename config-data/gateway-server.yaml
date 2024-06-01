@@ -21,11 +21,15 @@ spring:
             allowedMethods: "*"
             allowedHeaders: "*"
       routes:
-        - id: ms-orders
-          uri: lb://ms-orders:8090
+        - id: ms-tickets
+          uri: lb://ms-tickets
           predicates:
-            - Path=/orders/**
-        - id: ms-products
-          uri: lb://ms-products:8091
+            - Path=/ticket/**
+        - id: ms-repairs
+          uri: lb://ms-repairs
           predicates:
-            - Path=/products/**
+            - Path=/repair/**
+        - id: ms-vehicles
+          uri: lb://ms-vehicles
+          predicates:
+            - Path=/vehicle/**

@@ -5,6 +5,11 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/ms-repairs/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-vehicles/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-tickets/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-server/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
       </list>
     </option>
   </component>
