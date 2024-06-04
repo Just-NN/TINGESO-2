@@ -7,10 +7,10 @@ metadata:
 data:
   DB_HOST_TICKETS: tickets-db-service
   DB_PORT_TICKETS: "5432"
-  DB_DBNAME_TICKETS: tickets-db
+  DB_DBNAME_TICKETS: tickets
   DB_HOST_VEHICLES: vehicles-db-service
   DB_PORT_VEHICLES: "5433"
-  DB_DBNAME_VEHICLES: vehicles-db
+  DB_DBNAME_VEHICLES: vehicles
   DB_HOST_REPAIRS: repairs-db-service
   DB_PORT_REPAIRS: "5434"
-  DB_DBNAME_REPAIRS: repairs-db
+  DB_DBNAME_REPAIRS: repairs
