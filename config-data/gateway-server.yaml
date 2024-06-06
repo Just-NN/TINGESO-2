@@ -24,12 +24,12 @@ spring:
         - id: ms-tickets
           uri: lb://ms-tickets
           predicates:
-            - Path=/ticket/**
+            - Path=/api/v1/ticket/**
         - id: ms-repairs
           uri: lb://ms-repairs
           predicates:
-            - Path=/repair/**
+            - Path=/api/v1/repair/**
         - id: ms-vehicles
           uri: lb://ms-vehicles
           predicates:
-            - Path=/vehicle/**
+            - Path=/api/v1/vehicle/**
